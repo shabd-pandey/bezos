@@ -1,0 +1,189 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.navBar{
+    background-color: #131921;
+    height: 76px;
+    width: 100%;
+    margin: 0px;
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.amount{
+    display: flex;
+    margin-left: 0%;
+    margin-right:auto;
+    justify-content: center;
+    align-items: center;
+}
+
+#usdamount{
+
+    color: aliceblue;
+    font-size: 30px;
+    margin: 0px;
+    display: flex;
+    margin-right: auto;
+    font-weight: 300;
+    
+    
+    
+}
+
+.logoimg{
+    width: auto;
+    height: 180px;
+    margin-right: auto;
+    
+    
+}
+.logod{
+      width: 76px;
+    height: 180px;
+    margin-right: auto;
+    
+}
+#money_change{
+    width: 180px;
+    height: 28px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+#symbol{
+    color: aliceblue ;
+    font-weight: 300;
+    font-size: 30px;
+    margin: 0px;
+}
+
+
+#product_name{
+    font-size: 40px;
+  
+}
+.img_product{
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    margin-bottom: auto;
+}
+.last_note{
+    height: 280px;
+    width: 100%;
+    background: #232F3E;
+    display: flexbox;
+    justify-items: center;
+    justify-content: space-around;
+    color: #ffffff;
+    
+
+}
+.copyright_section{
+    height: 80px;
+    width: 500px;
+    font-size: 0.8rem;
+    
+    
+}
+.card{
+   
+    background-color: #F5F5F5;
+    width: 300px;
+    min-height: 400px;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    
+}
+
+
+
+.product_count{
+    width: 30px;
+    height: 20px;
+    border-radius: 10%;
+    border: 2px solid black;
+    background-color: #F5F5F5;
+    outline: none;
+
+}
+.price_style{
+    display: flex;
+    font-size: 30px;
+    color: rgb(11, 213, 11);
+    font-weight: 500;
+    margin: 0px;
+    padding: 0px;
+    
+}
+#buy{
+    width: 80px;
+    height: 30px;
+    background-color: #ffa41c;
+    color: #111;
+    padding: 8px 25px;
+    font-size: 14px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 1px solid #ff8f00;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.buttons_2{
+    display: flex;
+    justify-content: center;
+     align-items: center;
+     gap: 8px;
+     width: 100%;
+     
+
+}
+#sell{
+    width: 80px;
+    height: 30px;
+    background-color: #ffa41c;
+    color: #111;
+    padding: 8px 25px;
+    font-size: 14px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 1px solid #ff8f00;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#products{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+#sell:hover{
+    width: 100px;
+}
+.card:hover{
+    background-color: #ff8f00;
+}
