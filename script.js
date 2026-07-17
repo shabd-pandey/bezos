@@ -21,34 +21,25 @@ function updatecurrency(){
  const products =[
     {
         name: "Koru superyacht",
-        image: "images/images (1).jpg",
+        image: "images/koru1.jpg",
         price: 485000000
     },
        {
         name: "Abeona",
-        image: "images/images (2).jpg",
+        image: "images/abeona support yatch bezos.jpg",
         price: 485000000
     },
        {
         name: "GulfstreamG700",
-        image: "images/images (3).jpg",
+        image: "images/Gulfstream-G700-1090x500.jpg",
         price: 80000000
     },
        {
         name: "GulfstreamG650E",
-        image: "images/images (4).jpg",
+        image: "images/Gulfstream-G650E-1090x500.jpg",
         price: 65000000
     },
-       {
-        name: "Koru superyacht",
-        image: "images/images (5).jpg",
-        price: 485000000
-    },
-       {
-        name: "Koru superyacht",
-        image: "images/images (1).jpg",
-        price: 485000000
-    },
+       
 
 
 ];
