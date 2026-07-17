@@ -35,11 +35,77 @@ function updatecurrency(){
         price: 80000000
     },
        {
-        name: "GulfstreamG650E",
-        image: "images/Gulfstream-G650E-1090x500.jpg",
+        name: "GulfstreamG650Er (2019)",
+        image: "images/gulfsteam 2019.jpg",
         price: 65000000
     },
-       
+    {
+        name:"GulfstreamG650ER (2015)",
+        image: "images/gulfsteam g650er.jpg",
+        price:39000000
+            },
+
+    {
+        name:"Pilatus PC-24",
+        image: "images/pilatus pc24.webp",
+        price: 12000000
+            },
+    {
+        name:"Dassault Falcon 900EX",
+        image: "images/dassault falcon 900ex.jpg",
+        price:41000000
+            },
+    {
+        name:"Koenigsegg CCXR Trevita",
+        image: "images/koenigsegg ccxr trevita.avif",
+        price:4800000
+            },
+    {
+        name:"Lamborghini Veneno Roadster",
+        image: "images/lamborghini veneno.webp",
+        price: 4500000
+            },
+     {
+        name:"W Motors Lykan HyperSport",
+        image: "images/W Motors Lykan HyperSport.jpg",
+        price: 3400000
+            },
+      {
+        name:"Bugatti Veyron Mansory",
+        image: "images/Bugatti Veyron Mansory.webp",
+        price: 800000
+            },
+                           
+        {
+        name:"Ferrari Pininfarina Sergio",
+        image: "images/Ferrari Pininfarina Sergio.webp",
+        price: 3000000
+            },
+            
+        {
+        name:"Cadillac Escalade",
+        image: "images/Cadillac Escalade black.jpg",
+        price: 80000
+            },
+        {
+        name:"Lincoln MKT Stretch Limousine",
+        image: "images/Lincoln MKT stretch limousine.jpg",
+        price: 150000
+            }, 
+        
+      
+         {
+        name:"Mercedes-Benz S450",
+        image: "images/mercedes benz s450.jpg",
+        price: 95000
+            }, 
+         {
+        name:"Honda Accord (1996/1997coupe)",
+        image: "images/1997 Honda Accord coupe.jpg",
+        price: 150000
+            }, 
+         
+                    
 
 
 ];
@@ -83,10 +149,6 @@ function buy(index)
 
 };
 
-function card_info()
-{
-    
-}
 
  
 

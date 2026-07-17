@@ -13,6 +13,9 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    
+
+    
 
     
 }
@@ -65,8 +68,14 @@ body{
 }
 
 
-#product_name{
-    font-size: 40px;
+.product_name{
+    font-size: 20px;
+    max-width: 30px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+    
   
 }
 .img_product{
@@ -186,4 +195,7 @@ body{
 }
 .card:hover{
     background-color: #ff8f00;
+}
+.hero-section{
+    margin-top: 5px;
 }
