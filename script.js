@@ -125,7 +125,8 @@ function updatecurrency(){
 
 
 ];
-
+function renderproduct()
+{
 products.forEach(function(product,index){
     document.getElementById("products").innerHTML +=`
 
@@ -143,7 +144,8 @@ products.forEach(function(product,index){
             </div>
             </div>
     `;
-});
+});}
+ renderproduct();
 
 function sell(index)
 {
@@ -164,6 +166,12 @@ function buy(index)
     product_count.value++;
 
 };
+
+function showproducts(type)
+{
+    
+
+}
 
 
 
