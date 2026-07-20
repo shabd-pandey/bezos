@@ -63,7 +63,8 @@ function updatecurrency(){
     {
         name:"Lamborghini Veneno Roadster",
         image: "images/lamborghini veneno.webp",
-        price: 4500000
+        price: 4500000,
+        type: 'car'
             },
      {
         name:"W Motors Lykan HyperSport",
@@ -110,15 +111,15 @@ function updatecurrency(){
 
 ];
 
-products.forEach(function(products,index){
+products.forEach(function(product,index){
     document.getElementById("products").innerHTML +=`
 
     <div class="card" id="cards" onclick="card_info()">
-        <img src="${products.image}"class="img_product">
-        <h1 class="product_name">${products.name}</h1>
+        <img src="${product.image}"class="img_product">
+        <h1 class="product_name">${product.name}</h1>
         <div class="price_style">
         <p>$</p>
-        <p id="product_price_${index}">${products.price}</p>
+        <p id="product_price_${index}">${product.price}</p>
         </div>
             <div class="buttons_2">
             <button id="sell" onclick="sell(${index})">sell</button>
@@ -148,6 +149,9 @@ function buy(index)
     product_count.value++;
 
 };
+
+
+
 
 
  
