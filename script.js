@@ -22,43 +22,51 @@ function updatecurrency(){
     {
         name: "Koru superyacht",
         image: "images/koru1.jpg",
-        price: 485000000
+        price: 485000000,
+        type:'yatch'
     },
        {
         name: "Abeona",
         image: "images/abeona support yatch bezos.jpg",
-        price: 485000000
+        price: 485000000,
+        type: 'yatch'
     },
        {
         name: "GulfstreamG700",
         image: "images/Gulfstream-G700-1090x500.jpg",
-        price: 80000000
+        price: 80000000,
+        type:'jet' 
     },
        {
         name: "GulfstreamG650Er (2019)",
         image: "images/gulfsteam 2019.jpg",
-        price: 65000000
+        price: 65000000,
+        type:'jet' 
     },
     {
         name:"GulfstreamG650ER (2015)",
         image: "images/gulfsteam g650er.jpg",
-        price:39000000
+        price:39000000,
+        type:'jet' 
             },
 
     {
         name:"Pilatus PC-24",
         image: "images/pilatus pc24.webp",
-        price: 12000000
+        price: 12000000,
+        type:'jet' 
             },
     {
         name:"Dassault Falcon 900EX",
         image: "images/dassault falcon 900ex.jpg",
-        price:41000000
+        price:41000000,
+        type:'jet'
             },
     {
         name:"Koenigsegg CCXR Trevita",
         image: "images/koenigsegg ccxr trevita.avif",
-        price:4800000
+        price:4800000,
+        type: 'car'
             },
     {
         name:"Lamborghini Veneno Roadster",
@@ -69,41 +77,48 @@ function updatecurrency(){
      {
         name:"W Motors Lykan HyperSport",
         image: "images/W Motors Lykan HyperSport.jpg",
-        price: 3400000
+        price: 3400000,
+        type: 'car'
             },
       {
         name:"Bugatti Veyron Mansory",
         image: "images/Bugatti Veyron Mansory.webp",
-        price: 800000
+        price: 800000,
+        type: 'car'
             },
                            
         {
         name:"Ferrari Pininfarina Sergio",
         image: "images/Ferrari Pininfarina Sergio.webp",
-        price: 3000000
+        price: 3000000,
+        type: 'car'
             },
             
         {
         name:"Cadillac Escalade",
         image: "images/Cadillac Escalade black.jpg",
-        price: 80000
+        price: 80000,
+        type: 'car'
             },
         {
         name:"Lincoln MKT Stretch Limousine",
         image: "images/Lincoln MKT stretch limousine.jpg",
-        price: 150000
+        price: 150000,
+        type: 'car',
             }, 
         
       
          {
         name:"Mercedes-Benz S450",
         image: "images/mercedes benz s450.jpg",
-        price: 95000
+        price: 95000,
+        type: 'car'
             }, 
          {
         name:"Honda Accord (1996/1997coupe)",
         image: "images/1997 Honda Accord coupe.jpg",
-        price: 150000
+        price: 150000,
+        type: 'car'
             }, 
          
                     
