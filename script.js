@@ -127,11 +127,12 @@ function updatecurrency(){
 ];
 function renderproduct(filtered)
 {
+     document.getElementById("products").innerHTML =""; 
 filtered.forEach(function(product,index){
     document.getElementById("products").innerHTML += `
    
 
-    <div class="card"><a href="product_info.html" >
+    <div class="card">
         <img src="${product.image}"class="img_product">
         <h1 class="product_name">${product.name}</h1>
         <div class="price_style">
@@ -143,7 +144,7 @@ filtered.forEach(function(product,index){
             <input type = "number" id="product_count_${index}" value="0" min="0" readonly class="product_count">   
             <button id="buy" onclick="buy(${index})">buy</button>
             </div>
-            </div></a>
+            </div>
     `;
 });}
  
@@ -165,19 +166,21 @@ function buy(index)
     usdamount.innerText=Number(usdamount.innerText)-products[index].price;
     let product_count=document.getElementById(`product_count_${index}`);
     product_count.value++;
+    
 
 };
 
 function showProducts(type)
 {
-
-
+   if (type==="home") {
+    return renderproduct(products);
+   }
     const filtered = products.filter(product => product.type === type);
     console.log(filtered)
     renderproduct(filtered);
     
 };
-
+renderproduct(products);
 
 
 

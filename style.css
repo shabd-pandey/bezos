@@ -108,7 +108,7 @@ body{
     
     
 }
-.card a{
+.card{
    
     background-color: #F5F5F5;
     width: 300px;
@@ -196,7 +196,7 @@ body{
 #sell:hover{
     width: 100px;
 }
-.card a:hover{
+.card:hover{
     background-color: #ff8f00;
 }
 .hero-section{
