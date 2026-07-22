@@ -82,7 +82,7 @@ body{
 .img_product{
     width: 100%;
     height: 200px;
-    object-fit: contain;
+    object-fit: cover;
     align-items: center;
     justify-content: center;
     margin: 0px;
@@ -113,16 +113,10 @@ body{
     background-color: #F5F5F5;
     width: 300px;
     min-height: 400px;
-    justify-items: center;
-    align-items: center;
-    justify-content: space-between;
-    display: flex;
-    flex-direction: column;
     margin: 10px;
-    padding: 10px;
-    box-sizing: border-box;
-    color: #000;
-    text-decoration: none;
+    padding: 12px;
+ 
+   
     
 }
 
@@ -196,9 +190,9 @@ body{
 #sell:hover{
     width: 100px;
 }
-.card:hover{
-    background-color: #ff8f00;
-}
+
+    
+
 .hero-section{
     margin-top: 5px;
 }
@@ -215,3 +209,22 @@ body{
     
     
 }
+.justInfo{
+    background-color: #F5F5F5;
+    width: 300px;
+    min-height: 400px;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+   
+
+}
+

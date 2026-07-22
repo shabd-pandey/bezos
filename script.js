@@ -133,11 +133,13 @@ filtered.forEach(function(product,index){
    
 
     <div class="card">
+    <div class="justInfo"  onclick="product_page()">
         <img src="${product.image}"class="img_product">
         <h1 class="product_name">${product.name}</h1>
         <div class="price_style">
         <p>$</p>
         <p id="product_price_${index}">${product.price}</p>
+        </div>
         </div>
             <div class="buttons_2">
             <button id="sell" onclick="sell(${index})">sell</button>
@@ -183,7 +185,10 @@ function showProducts(type)
 renderproduct(products);
 
 
-
+function product_page()
+{
+    window.location.href="product_info.html";
+};
 
 
 
